@@ -3,7 +3,7 @@
   "private": true,
   "ignore": [
     "harmony/src",
-    "READE.md",
+    "README.md",
     ".gitignore",
     "bower.json"
   ],
