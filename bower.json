@@ -1,6 +1,7 @@
 {
   "name": "star-rating-bar",
   "private": true,
+  "ignore": ["harmony/src"],
   "dependencies": {
     "polymer": "Polymer/polymer#master"
   }
