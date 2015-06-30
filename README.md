@@ -1,28 +1,29 @@
 #star-rating-bar
 Polymer element for star classification system.
+
 **This element is compatible with Polymer 0.5 and lower only.**  
 
-### Installation
+#### Installation
 
 ```
 $ bower install feego/star-rating-bar
 ```
 
-### Compile ES2015 source files
+#### Compile ES2015 source files
 
 ```
 $ npm install babel-loader
 $ webpack ./harmony/src/start-rating-bar.js ./harmony/build/build.js --module-bind "js=babel?stage=0"
 ```
 
-### TODO
+#### TODO
 
 ```
 $ npm test
 $ npm run-script test-cov
 ```
 
-# License
+#### License
 
 The MIT License (MIT)
 
