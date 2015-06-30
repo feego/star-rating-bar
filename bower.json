@@ -1,7 +1,12 @@
 {
   "name": "star-rating-bar",
   "private": true,
-  "ignore": ["harmony/src"],
+  "ignore": [
+    "harmony/src",
+    "READE.md",
+    ".gitignore",
+    "bower.json"
+  ],
   "dependencies": {
     "polymer": "Polymer/polymer#master"
   }
