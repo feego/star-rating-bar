@@ -1,0 +1,6 @@
+{
+    "directory": "components",
+    "scripts": {
+        "postinstall": "npm install && webpack"
+    }
+}

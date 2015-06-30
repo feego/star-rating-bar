@@ -1,0 +1,26 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/core-icon/core-icon.html">
+
+<!-- Declaration of polymer start-rating-bar custom element. -->
+<polymer-element name="start-rating-bar" attributes="classification">
+	<template>
+		<style>
+            #container {
+                opacity: 0.8;
+            }
+            #container > core-icon {
+                height: 17px;
+                width: 17px;
+                -webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.1));
+                filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.1));
+                display: inline-block;
+                color: rgba(0, 0, 0, 0.2);
+            }
+            #container > .yellow {
+                color: #FFCF15;
+            }
+		</style>
+        <div id="container"></div>
+	</template>
+	<script src="harmony/build/build.js"></script>
+</polymer-element>
