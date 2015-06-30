@@ -1,7 +1,6 @@
 #star-rating-bar
-Polymer element for star classification system.
-
 **This element is compatible with Polymer 0.5 and lower only.**  
+Polymer element for star classification system.
 
 #### Installation
 
