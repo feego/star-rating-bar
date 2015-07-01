@@ -8,7 +8,7 @@ Polymer element for star classification system.
 $ bower install feego/star-rating-bar
 ```
 
-#### Installation
+#### Usage
 
 ```html
 <start-rating-bar classification="5"></start-rating-bar>
