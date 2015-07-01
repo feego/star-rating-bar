@@ -1,11 +1,24 @@
 {
   "name": "star-rating-bar",
-  "private": true,
+  "version": "0.0.1",
+  "authors": [
+    "Rui Monteiro"
+  ],
+  "description": "Polymer elemento for star classification system.",
+  "keywords": [
+    "Polymer",
+    "web-components"
+  ],
+  "license": "MIT",
   "ignore": [
     "harmony/src",
     "README.md",
     ".gitignore",
-    "bower.json"
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#master"
