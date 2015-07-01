@@ -11,7 +11,7 @@ Polymer('start-rating-bar', {
             this.$.container.appendChild(star)
         }
     },
-	classificationChanged() {
+    classificationChanged() {
         let classification = parseInt(this.classification)
         if (classification > 5 || classification < 0) {
             throw new Error("Classification must be an integer between 0 and 5.")
