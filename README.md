@@ -5,7 +5,7 @@ Polymer element for star classification system.
 #### Installation
 
 ```
-$ bower install feego/star-rating-bar
+bower install feego/star-rating-bar
 ```
 
 #### Usage
@@ -17,8 +17,8 @@ $ bower install feego/star-rating-bar
 #### Compile ES2015 source files
 
 ```
-$ npm install babel-loader
-$ webpack ./harmony/src/start-rating-bar.js ./harmony/build/build.js --module-bind "js=babel?stage=0"
+npm install babel-loader
+webpack ./harmony/src/start-rating-bar.js ./harmony/build/build.js --module-bind "js=babel?stage=0"
 ```
 
 #### License
